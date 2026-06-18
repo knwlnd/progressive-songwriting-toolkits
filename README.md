@@ -1,4 +1,4 @@
-# Modern Prog MIDI
+# Modern Progressive MIDI
 
 A dependency-free static catalogue site for progressive metal MIDI products.
 

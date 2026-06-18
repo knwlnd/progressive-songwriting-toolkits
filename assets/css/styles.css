@@ -126,6 +126,12 @@ h3 {
   text-transform: uppercase;
 }
 
+.brand-separator,
+.brand-product {
+  color: var(--faint);
+  font-weight: 600;
+}
+
 .brand-mark {
   position: relative;
   width: 18px;
@@ -609,6 +615,21 @@ h3 {
   color: var(--accent);
 }
 
+.footer-legal {
+  padding-block: 24px;
+  border-top: 1px solid var(--line);
+  color: var(--faint);
+  font-size: 0.72rem;
+}
+
+.footer-legal p {
+  margin: 0;
+}
+
+.footer-legal p + p {
+  margin-top: 7px;
+}
+
 .footer-bottom {
   display: flex;
   align-items: center;
@@ -883,6 +904,10 @@ h3 {
   .site-nav {
     width: 100%;
     justify-content: space-between;
+  }
+
+  .brand {
+    flex-wrap: wrap;
   }
 
   .section {
