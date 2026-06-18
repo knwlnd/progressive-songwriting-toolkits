@@ -210,6 +210,21 @@ h3 {
   line-height: 1.6;
 }
 
+.positioning-statement {
+  max-width: 650px;
+  margin: -14px 0 40px;
+  padding-left: 16px;
+  border-left: 2px solid var(--accent);
+  color: var(--faint);
+  font-size: 0.82rem;
+  line-height: 1.75;
+}
+
+.positioning-statement strong {
+  color: var(--muted);
+  font-weight: 600;
+}
+
 .button-row {
   display: flex;
   flex-wrap: wrap;
