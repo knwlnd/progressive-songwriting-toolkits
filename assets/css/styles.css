@@ -182,7 +182,7 @@ h3 {
 
 .hero {
   overflow: hidden;
-  padding-block: clamp(44px, 6.2vw, 88px) clamp(100px, 14vw, 190px);
+  padding-block: clamp(63px, 7.55vw, 107px) clamp(100px, 14vw, 190px);
 }
 
 .hero-grid {
@@ -915,7 +915,7 @@ h3 {
   }
 
   .hero {
-    padding-block: 44px 100px;
+    padding-block: 63px 100px;
   }
 
   h1 {
